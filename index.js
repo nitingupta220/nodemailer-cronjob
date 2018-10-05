@@ -8,8 +8,8 @@ app = express();
 let transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "nitingupta220@gmail.com",
-    pass: "nitin@8087"
+    user: "your-email-id",
+    pass: "your-password"
   }
 });
 
@@ -17,8 +17,8 @@ cron.schedule("* * * * Thursday", function() {
   console.log("-----------------");
   console.log("Running Cron Job");
   let mailOptions = {
-    from: "nitingupta220@gmail.com",
-    to: "nitin16@navgurukul.org",
+    from: "your-email-id",
+    to: "recipient-email-id",
     subject: `hello`,
     text: `Hi, I'm using cron job`
   };
