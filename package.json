@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.0",
     "fs": "0.0.1-security",
     "node-cron": "^2.0.1",
     "nodemailer": "^4.6.8",
